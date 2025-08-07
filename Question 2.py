@@ -13,3 +13,4 @@ z = 3.0
 print(x, type(x))
 print(y, type(y))
 print(z, type(z))
+print(y + z)  # This will cause an error because x is a string and y is an integer
